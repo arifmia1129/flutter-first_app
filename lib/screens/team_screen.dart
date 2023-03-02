@@ -1,3 +1,4 @@
+import '/screens/main_drawer.dart';
 import 'package:flutter/material.dart';
 
 class TeamScreen extends StatelessWidget {
@@ -10,6 +11,7 @@ class TeamScreen extends StatelessWidget {
           title: Text("টিম"),
           centerTitle: true,
         ),
+        drawer: MainDrawer(),
         body: Padding(
           padding: EdgeInsets.all(10),
           child: Center(

@@ -1,3 +1,4 @@
+import '/screens/main_drawer.dart';
 import 'package:flutter/material.dart';
 
 class DetailsScreen extends StatelessWidget {
@@ -9,6 +10,7 @@ class DetailsScreen extends StatelessWidget {
         appBar: AppBar(
           title: Text("বিস্তারিত"),
         ),
+        drawer: MainDrawer(),
         body: Padding(
           padding: EdgeInsets.all(10),
           child: Center(
